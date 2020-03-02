@@ -2,7 +2,7 @@ rm(list = ls())
 gc()
 
 print('Change directory path')
-dir_path <- paste('C:/Users/ch379/Desktop/JSD/') # your path here
+dir_path <- paste('/home/chonghui/project/JSD_SourceTracking/') # your path here
 setwd(paste0(dir_path, 'JSD_src'))
 source('src.R')
 
