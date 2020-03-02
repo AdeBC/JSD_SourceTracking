@@ -2,15 +2,15 @@ rm(list = ls())
 gc()
 
 print('Change directory path')
-dir_path <- paste('C:/Users/ch379/Desktop/JSD/') # your path here
+dir_path <- paste('C:/Users/ch379/Documents/JSD_SourceTracking/') # your path here
 setwd(paste0(dir_path, 'JSD_src'))
 source('src.R')
 
 
 # Set the arguments of your data
-metadata_file <- 'metadata_example_multi.txt'
+metadata_file <- 'metadata_ONN_0.txt'
 count_matrix <- 'otu_example_multi.txt'
-different_sources_flag = 1
+different_sources_flag = 0
 
 setwd(paste0(dir_path, "Data_files"))
 # Load sample metadata
